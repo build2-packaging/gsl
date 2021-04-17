@@ -1,0 +1,9 @@
+lib{gsl}: $src_upstream/include/gsl/hxx{gsl}
+{
+  cxx.export.poptions =+ "-I$src_upstream/include"
+}
+
+../upstream/include/
+{
+  hxx{*}: install.subdirs = true
+}

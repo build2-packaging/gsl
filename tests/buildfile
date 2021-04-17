@@ -1,0 +1,3 @@
+import libs = gsl%lib{gsl}
+
+./: exe{main}: cxx{main} $libs

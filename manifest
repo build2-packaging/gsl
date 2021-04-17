@@ -1,0 +1,17 @@
+: 1
+name: gsl
+version: 3.1.0
+summary: The Guidelines Support Library (GSL) contains functions and types that are suggested for use by the C++ Core Guidelines maintained by the Standard C++ Foundation.
+license: MIT
+
+description-file: upstream/README.md
+url: https://github.com/microsoft/GSL
+package-url: https://github.com/build2-packaging/doctest/
+# email:
+package-email: lyrahgames@mailbox.org
+build-warning-email: lyrahgames@mailbox.org
+
+depends: * build2 >= 0.13.0
+depends: * bpkg >= 0.13.0
+
+requires: c++14

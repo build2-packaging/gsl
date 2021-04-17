@@ -1,0 +1,10 @@
+cxx.std = latest
+
+using cxx
+
+hxx{*}: extension =
+cxx{*}: extension = cpp
+
+test.target = $cxx.target
+
+src_upstream = $src_root/upstream
