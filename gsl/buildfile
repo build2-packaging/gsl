@@ -1,4 +1,4 @@
-lib{gsl}: $src_upstream/include/gsl/hxx{gsl}
+lib{gsl}: $src_upstream/include/gsl/hxx{**}
 {
   cxx.export.poptions =+ "-I$src_upstream/include"
 }
