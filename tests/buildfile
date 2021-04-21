@@ -1,3 +1,4 @@
-import libs = gsl%lib{gsl}
+libs =
+import libs += gsl%lib{gsl}
 
-./: exe{main}: cxx{main} $libs
+./: exe{tests}: {hxx cxx}{** -multi_span_tests -strided_span_tests -bounds_test} $libs

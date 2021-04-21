@@ -1,16 +1,19 @@
 *
 !*/
 
-!*.hpp
+!*.h
 !*.cpp
+
+!gsl
 
 !bootstrap.build
 !root.build
 !export.build
 !buildfile
-!manifest
+!*manifest
 
-!README.md
+!*README.md
+!LICENSE
 
 !.gitmodules
 !.gitignore

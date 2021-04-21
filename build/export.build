@@ -1,6 +1,6 @@
 $out_root
 {
-  include gsl/
+  include ./
 }
 
-export $out_root/gsl/$import.target
+export $out_root/$import.target
