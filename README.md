@@ -1,10 +1,20 @@
-# build2 Package for GSL
+<h1 align="center">
+    build2 Package for GSL
+</h1>
 
-This project builds and defines the build2 package for the [Guidelines Support Library (GSL)](https://github.com/microsoft/GSL).
-The GSL contains functions and types that are suggested for use by the [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines) maintained by the Standard C++ Foundation.
+<p align="center">
+    This project builds and defines the build2 package for the <a href="https://github.com/microsoft/GSL">Guidelines Support Library (GSL)</a>.
+    The GSL contains functions and types that are suggested for use by the <a href="https://github.com/isocpp/CppCoreGuidelines">C++ Core Guidelines</a> maintained by the Standard C++ Foundation.
+</p>
 
-[![cppget.org build2 package](https://img.shields.io/website/https/cppget.org/gsl.svg?down_message=offline&label=cppget.org&style=for-the-badge&up_color=blue&up_message=online)](https://cppget.org/gsl)
-[![queue.cppget.org build2 package](https://img.shields.io/website/https/queue.cppget.org/gsl.svg?down_message=empty&down_color=blue&label=queue.cppget.org&style=for-the-badge&up_color=orange&up_message=running)](https://queue.cppget.org/gsl)
+<p align="center">
+    <a href="https://cppget.org/gsl">
+        <img src="https://img.shields.io/website/https/cppget.org/gsl.svg?down_message=offline&label=cppget.org&style=for-the-badge&up_color=blue&up_message=online">
+    </a>
+    <a href="https://queue.cppget.org/gsl">
+        <img src="https://img.shields.io/website/https/queue.cppget.org/gsl.svg?down_message=empty&down_color=blue&label=queue.cppget.org&style=for-the-badge&up_color=orange&up_message=running">
+    </a>
+</p>
 
 ## Contributing
 Thanks in advance for your help and contribution to keep this package up-to-date.
