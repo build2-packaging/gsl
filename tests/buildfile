@@ -1,4 +1,4 @@
 libs =
 import libs += gsl%lib{gsl}
 
-./: exe{tests}: {hxx cxx}{** -multi_span_tests -strided_span_tests -bounds_test} $libs
+./: exe{tests}: {hxx cxx}{**} $libs
