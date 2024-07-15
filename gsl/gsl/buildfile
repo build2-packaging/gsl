@@ -1,0 +1,6 @@
+lib{gsl}: gsl/hxx{**}
+{
+  cxx.export.poptions = "-I$src_base"
+}
+
+hxx{*}: install.subdirs = true

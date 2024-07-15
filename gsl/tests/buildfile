@@ -1,0 +1,5 @@
+import gsl = gsl%lib{gsl}
+
+exe{tests}: {hxx cxx}{**} $gsl
+
+cxx.poptions =+ "-I$src_root"

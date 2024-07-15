@@ -1,7 +1,9 @@
 cxx.std = latest
+
 using cxx
 
 # GSL does not use extensions for header files.
+#
 hxx{*}: extension =
 cxx{*}: extension = cpp
 

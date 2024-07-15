@@ -1,4 +1,0 @@
-libs =
-import libs += gsl%lib{gsl}
-
-./: exe{tests}: {hxx cxx}{**} $libs
