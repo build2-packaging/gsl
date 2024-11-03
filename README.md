@@ -1,6 +1,6 @@
 # build2 Package for GSL
 
-This project is a [build2](https://build2.org) package repository that provides access to the [Guidelines Support Library (GSL)](https://github.com/doctest/doctest), a C++ header-only library that contains functions and types that are suggested for use by the [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines) maintained by the Standard C++ Foundation.
+This project is a [build2](https://build2.org) package repository that provides access to the [Guidelines Support Library (GSL)](https://github.com/microsoft/GSL), a C++ header-only library that contains functions and types that are suggested for use by the [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines) maintained by the Standard C++ Foundation.
 
 [![Official](https://img.shields.io/website/https/github.com/microsoft/gsl.svg?down_message=offline&label=Official&style=for-the-badge&up_color=blue&up_message=online)](https://github.com/microsoft/gsl)
 [![build2](https://img.shields.io/website/https/github.com/build2-packaging/gsl.svg?down_message=offline&label=build2&style=for-the-badge&up_color=blue&up_message=online)](https://github.com/build2-packaging/gsl)
