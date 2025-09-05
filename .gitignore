@@ -44,3 +44,4 @@
 # Allow for specific directories.
 #
 !gsl
+!gsl-tests/tests/tests

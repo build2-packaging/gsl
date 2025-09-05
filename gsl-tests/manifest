@@ -1,0 +1,19 @@
+: 1
+name: gsl-tests
+version: 4.2.0-a.0.z
+type: exe
+language: c++
+summary: The Guidelines Support Library (GSL) contains functions and types that are suggested for use by the C++ Core Guidelines maintained by the Standard C++ Foundation.
+license: MIT
+
+description-file: README.md
+url: https://github.com/microsoft/GSL
+
+package-description-file: PACKAGE-README.md
+package-url: https://github.com/build2-packaging/gsl/
+package-email: packaging@build2.org
+
+depends: * build2 >= 0.17.0
+depends: * bpkg >= 0.17.0
+
+depends: gtest ^1.11.0

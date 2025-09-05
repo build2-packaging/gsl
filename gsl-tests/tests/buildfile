@@ -1,0 +1,6 @@
+import gsl = gsl%lib{gsl}
+import gtest = gtest%liba{gtest_main}
+
+./: exe{gsl-tests}: tests/{hxx cxx}{** -no_exception_ensure_tests} $gsl $gtest
+
+./: exe{no_exception_ensure_tests}: tests/cxx{no_exception_ensure_tests} $gsl

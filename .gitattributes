@@ -21,3 +21,4 @@
 # See: https://build2.org/article/symlinks.xhtml#windows
 #
 gsl/gsl/gsl symlink=dir
+gsl-tests/tests/tests symlink=dir
