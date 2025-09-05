@@ -1,0 +1,8 @@
+: 1
+name: gsl
+version: 4.2.0
+type: lib,binless
+language: c++
+project: gsl
+summary: Support Library for C++ Core Guidelines
+license: MIT
