@@ -8,14 +8,14 @@ This project is a [build2](https://build2.org) package repository that provides 
 [![queue.cppget.org](https://img.shields.io/website/https/queue.cppget.org/gsl.svg?down_message=empty&down_color=blue&label=queue.cppget.org&style=for-the-badge&up_color=orange&up_message=running)](https://queue.cppget.org/gsl)
 
 ## Usage
-Make sure to add the stable section of the `cppget.org` repository to your project's `repositories.manifest` to be able to fetch this package.
+Make sure to add the stable or testing section of the `cppget.org` repository to your project's `repositories.manifest` to be able to fetch this package.
 
     :
     role: prerequisite
     location: https://pkg.cppget.org/1/stable
     # trust: ...
 
-If the stable section of `cppget.org` is not an option then add this Git repository itself instead as a prerequisite.
+If the stable and testing sections of `cppget.org` are not an option then add this Git repository itself instead as a prerequisite.
 
     :
     role: prerequisite
@@ -23,7 +23,7 @@ If the stable section of `cppget.org` is not an option then add this Git reposit
 
 Add the respective dependency in your project's `manifest` file to make the package available for import.
 
-    depends: gsl ^4.0.0
+    depends: gsl ^4.2.0
 
 The library can be imported by the following declaration in a `buildfile`.
 
@@ -33,7 +33,7 @@ The library can be imported by the following declaration in a `buildfile`.
 There are no configuration options available.
 
 ## Issues and Notes
-- All test source files are not provided as symbolic links but have been deeply copied and altered to be executable with `doctest` and not `gtest`. At the time of creation, `gtest` was not available. For the next package version, this will most likely be changed. The tests will be provided as external tests packages depending on `gtest`.
+Currently, there are no known issues.
 
 ## Contributing
 Thank you in advance for your help and contribution to keep this package up-to-date.
