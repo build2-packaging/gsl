@@ -3,7 +3,7 @@ name: gsl-tests
 version: 4.2.0-a.0.z
 type: exe
 language: c++
-summary: The Guidelines Support Library (GSL) contains functions and types that are suggested for use by the C++ Core Guidelines maintained by the Standard C++ Foundation.
+summary: Support Library for C++ Core Guidelines, tests
 license: MIT
 
 description-file: README.md

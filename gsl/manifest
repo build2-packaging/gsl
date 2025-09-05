@@ -3,7 +3,7 @@ name: gsl
 version: 4.2.0-a.0.z
 type: lib,binless
 language: c++
-summary: The Guidelines Support Library (GSL) contains functions and types that are suggested for use by the C++ Core Guidelines maintained by the Standard C++ Foundation.
+summary: Support Library for C++ Core Guidelines
 license: MIT
 
 description-file: README.md
@@ -15,3 +15,5 @@ package-email: packaging@build2.org
 
 depends: * build2 >= 0.17.0
 depends: * bpkg >= 0.17.0
+
+tests: gsl-tests == $
