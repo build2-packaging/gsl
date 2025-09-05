@@ -43,5 +43,6 @@
 
 # Allow for specific directories.
 #
-!gsl
+!gsl/gsl/gsl
+!gsl/docs
 !gsl-tests/tests/tests

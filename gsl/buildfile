@@ -1,2 +1,5 @@
-./: {*/ -build/} manifest legal{LICENSE} doc{*.md}
+./: gsl/ tests/ manifest legal{LICENSE}
 tests/: install = false
+
+./: doc{*.md} docs/doc{*.md}
+docs/doc{*}: install = doc/docs/
