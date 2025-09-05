@@ -1,8 +1,9 @@
 : 1
 name: gsl-tests
-version: 4.2.0-a.0.z
+version: 4.2.0
 type: exe
 language: c++
+project: gsl
 summary: Support Library for C++ Core Guidelines, tests
 license: MIT
 
